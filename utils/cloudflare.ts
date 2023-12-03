@@ -1,4 +1,4 @@
-import S3 from "aws-sdk/clients/s3.js";
+import S3 from "aws-sdk/clients/s3";
 import fs from "fs";
 
 const fileTypeFromFile = (path: string) => {
